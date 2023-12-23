@@ -16,7 +16,6 @@ function deleteDigit(n) {
   let numbersArr = [];
 
   for (let i = 0; i < nDigitsArr.length; i += 1) {
-    const currentDigit = nDigitsArr[i];
     let nDigitsArrNew = [...nDigitsArr];
     nDigitsArrNew.splice(i, 1);
     numbersArr.push(Number(nDigitsArrNew.join('')));
